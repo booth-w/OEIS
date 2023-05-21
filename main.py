@@ -24,6 +24,12 @@ def A000030():
 		yield int(str(a)[0])
 		a += 1
 
+def A000034():
+	a = 0
+	while True:
+		yield a%2+1
+		a += 1
+
 def A005843():
 	a = 0
 	while True:
