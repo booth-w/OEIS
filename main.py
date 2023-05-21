@@ -1,3 +1,7 @@
+def A000004():
+	while True:
+		yield 0
+
 def A000027():
 	a = 0
 	while True:
