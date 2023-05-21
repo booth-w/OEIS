@@ -18,6 +18,12 @@ def A000027():
 		a += 1
 		yield a
 
+def A000030():
+	a = 0
+	while True:
+		yield int(str(a)[0])
+		a += 1
+
 def A005843():
 	a = 0
 	while True:
