@@ -8,6 +8,10 @@ def A000007():
 		yield int(a==0)
 		a += 1
 
+def A000012():
+	while True:
+		yield 1
+
 def A000027():
 	a = 0
 	while True:
