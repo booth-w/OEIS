@@ -30,6 +30,12 @@ def A000034():
 		yield a%2+1
 		a += 1
 
+def A000035():
+	a = 0
+	while True:
+		yield a%2
+		a += 1
+
 def A005843():
 	a = 0
 	while True:
