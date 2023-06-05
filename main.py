@@ -1,3 +1,6 @@
+import math
+
+
 def A000004():
 	while True:
 		yield 0
@@ -34,6 +37,13 @@ def A000035():
 	a = 0
 	while True:
 		yield a%2
+		a += 1
+
+def A000037():
+	a = 0
+	while True:
+		if not math.sqrt(a).is_integer():
+			yield a
 		a += 1
 
 def A005843():
