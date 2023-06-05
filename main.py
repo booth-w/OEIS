@@ -52,7 +52,13 @@ def A000290():
 		if not math.sqrt(a).is_integer():
 			yield a
 		a += 1
-		
+
+def A005408():
+	a = 1
+	while True:
+		yield a
+		a += 2
+
 def A005843():
 	a = 0
 	while True:
