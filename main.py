@@ -1,4 +1,5 @@
 import math
+import sympy
 
 
 def A000004():
@@ -43,6 +44,13 @@ def A000037():
 	a = 0
 	while True:
 		if not math.sqrt(a).is_integer():
+			yield a
+		a += 1
+
+def A000040():
+	a = 0
+	while True:
+		if sympy.isprime(a):
 			yield a
 		a += 1
 
