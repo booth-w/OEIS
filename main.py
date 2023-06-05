@@ -60,6 +60,13 @@ def A000042():
 		yield int("1"*a)
 		a += 1
 
+def A000043():
+	a = 0
+	while True:
+		if sympy.isprime(2**a-1):
+			yield a
+		a += 1
+
 def A000290():
 	a = 0
 	while True:
