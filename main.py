@@ -54,6 +54,12 @@ def A000040():
 			yield a
 		a += 1
 
+def A000042():
+	a = 1
+	while True:
+		yield int("1"*a)
+		a += 1
+
 def A000290():
 	a = 0
 	while True:
