@@ -100,6 +100,12 @@ def A000069():
 			yield a
 		a += 1
 
+def A000079():
+	a = 1
+	while True:
+		yield a**2
+		a += 1
+
 def A000290():
 	a = 0
 	while True:
