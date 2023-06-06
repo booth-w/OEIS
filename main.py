@@ -93,6 +93,13 @@ def A000068():
 			yield a
 		a += 1
 
+def A000069():
+	a = 0
+	while True:
+		if str(bin(a)).count("1")%2 == 1:
+			yield a
+		a += 1
+
 def A000290():
 	a = 0
 	while True:
