@@ -67,10 +67,16 @@ def A000043():
 			yield a
 		a += 1
 
+def A000051():
+	a = 0
+	while True:
+		yield 2**a+1
+		a += 1
+
 def A000290():
 	a = 0
 	while True:
-		if not math.sqrt(a).is_integer():
+		if math.sqrt(a).is_integer():
 			yield a
 		a += 1
 
