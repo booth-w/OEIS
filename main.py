@@ -106,6 +106,12 @@ def A000079():
 		yield a**2
 		a += 1
 
+def A000093():
+	a = 0
+	while True:
+		yield math.floor(a**(3/2))
+		a += 1
+
 def A000290():
 	a = 0
 	while True:
