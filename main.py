@@ -86,6 +86,13 @@ def A000062():
 		yield math.floor(a/(math.e-2))
 		a += 1
 
+def A000068():
+	a = 0
+	while True:
+		if sympy.isprime(a**4 + 1):
+			yield a
+		a += 1
+
 def A000290():
 	a = 0
 	while True:
